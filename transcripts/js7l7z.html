@@ -1,0 +1,217 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Transcript 🛒・js7l7z</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <style>
+            @keyframes fundoAnimado {
+                0% { background-position: 0% 50%; }
+                50% { background-position: 100% 50%; }
+                100% { background-position: 0% 50%; }
+            }
+            @keyframes fadeSlide {
+                to { opacity: 1; transform: translateY(0); }
+            }
+            body {
+                background: linear-gradient(-45deg, #0a1a33, #0d2347, #1a345d, #0d2347);
+                background-size: 400% 400%;
+                animation: fundoAnimado 20s ease infinite;
+                color: #fff;
+                font-family: 'Inter', sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .header-card {
+                background: rgba(10, 25, 47, 0.85);
+                backdrop-filter: blur(12px);
+                border-radius: 12px;
+                padding: 15px 25px;
+                margin: 20px 0;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                font-size: 22px;
+                font-weight: bold;
+            }
+            .header-card img {
+                width: 40px;
+                height: 40px;
+            }
+            .ticket-info {
+                display: flex;
+                gap: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+            .ticket-info .info-card {
+                background: rgba(20, 40, 70, 0.85);
+                backdrop-filter: blur(10px);
+                padding: 10px 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                font-size: 14px;
+            }
+            .main-card {
+                background: rgba(20, 30, 50, 0.8);
+                backdrop-filter: blur(10px);
+                border-radius: 16px;
+                padding: 40px 20px;
+                box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+                max-width: 1100px;
+                width: 90%;
+            }
+            .msg {
+                opacity: 0;
+                transform: translateY(20px);
+                animation: fadeSlide 0.4s ease forwards;
+                background: rgba(42, 42, 42, 0.9);
+                border-radius: 12px;
+                padding: 15px;
+                margin-bottom: 15px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                transition: transform 0.3s ease;
+            }
+            .msg:hover {
+                transform: translateY(-2px);
+            }
+            .msg-header {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            img.avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.4);
+            }
+            .author {
+                font-weight: 600;
+                font-size: 16px;
+            }
+            .time {
+                margin-left: auto;
+                font-size: 12px;
+                color: #aaa;
+            }
+            .content {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                margin-top: 5px;
+            }
+            .attachment img {
+                max-width: 100%;
+                border-radius: 8px;
+                margin-top: 10px;
+                transition: transform 0.3s ease;
+            }
+            .attachment img:hover {
+                transform: scale(1.02);
+            }
+            .attachment a {
+                color: #00aaff;
+                text-decoration: none;
+            }
+            .embed {
+                background-color: #23272a;
+                border-left: 4px solid #5865f2;
+                padding: 10px;
+                border-radius: 8px;
+                margin-top: 10px;
+                animation: pulseBorder 3s infinite;
+            }
+            @keyframes pulseBorder {
+                0%, 100% { border-left-color: #5865f2; }
+                50% { border-left-color: #7a8cff; }
+            }
+            .embed-title {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            .embed-description {
+                color: #ccc;
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+            .embed-field {
+                margin-top: 4px;
+                padding: 4px;
+                background: #2f3136;
+                border-radius: 4px;
+            }
+            .embed-field-name {
+                font-weight: bold;
+                font-size: 13px;
+            }
+            .embed-field-value {
+                font-size: 13px;
+            }
+            footer {
+                margin-top: 40px;
+                font-size: 14px;
+                color: #ccc;
+                text-align: center;
+                padding: 15px 0;
+            }
+            footer a {
+                color: #00aaff;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s ease;
+            }
+            footer a:hover {
+                color: #66d1ff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-card">
+            <img src="https://i.ibb.co/5gM5KgYx/image-removebg-preview-1.png" alt="Prime Code Logo" />
+            Prime Code Transcript
+        </div>
+        <div class="ticket-info">
+            <div class="info-card"> 📂 Categoria: compra </div>
+            <div class="info-card"> 📝 Motivo: KKKKKKKKKKKKKKK</div>
+        </div>
+        <div class="main-card">
+            
+                <div class="msg" style="animation-delay: 0s">
+                    <div class="msg-header">
+                        <img class="avatar" src="https://cdn.discordapp.com/avatars/1404515116904611841/a_0fcd10e0df6b76c47326b0dd7a27a9a3.gif?size=64" />
+                        <span class="author">PRIME CODE#1680</span>
+                        <span class="time">14/08/2025, 20:02:45</span>
+                    </div>
+                    <div class="content"></div>
+                    
+                    
+                    <div style="margin-top:8px; font-size:13px; color:#ffcc00;">📌 Contém componentes de interação</div>
+                </div>
+                
+                <div class="msg" style="animation-delay: 0.05s">
+                    <div class="msg-header">
+                        <img class="avatar" src="https://cdn.discordapp.com/avatars/1404515116904611841/a_0fcd10e0df6b76c47326b0dd7a27a9a3.gif?size=64" />
+                        <span class="author">PRIME CODE#1680</span>
+                        <span class="time">14/08/2025, 20:02:46</span>
+                    </div>
+                    <div class="content"></div>
+                    
+                    
+                    
+                </div>
+                
+        </div>
+        <footer>
+            © 2025 Prime Code — Desenvolvido por 
+            <a href="https://instagram.com/viniwalkersp" target="_blank">Vinicius Walker</a>
+        </footer>
+    </body>
+    </html>
+    
