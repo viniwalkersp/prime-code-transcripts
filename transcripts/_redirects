@@ -1,1 +1,1 @@
-/transcripts/:code  /transcripts/:code.html  200
+/transcripts/:name   /transcripts/:name.html   200
